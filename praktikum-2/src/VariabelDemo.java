@@ -14,10 +14,10 @@ public class VariabelDemo {
         /*B.2*/
         int nilaiBulat = 9;
         double nilaiDouble = nilaiBulat; //wedining otomatis
-        System.out.println("Widening:  + nilaiDouble ");
+        System.out.println("Widening: " + nilaiDouble );
 
         double pecahan = 9.8;
         int hasilCating = (int) pecahan;
-        System.out.println("Narrowing: + hasilCasting");
+        System.out.println("Narrowing: " + hasilCating);
     }
 }
