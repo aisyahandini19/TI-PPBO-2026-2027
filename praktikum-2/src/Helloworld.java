@@ -6,5 +6,10 @@ public class Helloworld {
         System.out.println();
         System.out.println("Ini baris baru");
 
+        // Program Menampilkan Biodata sederhan
+        System.out.println("Nama: Aisyah Andini");
+        /*baris di bawah ini mencatak NIM mahasiswa*/
+        System.out.println("NIM: 2025573010001");
+
     }
 }
