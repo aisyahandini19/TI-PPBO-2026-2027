@@ -11,6 +11,13 @@ public class VariabelDemo {
         System.out.println("Tinggi: " + tinggi);
         System.out.println("Golongan Darah: " + golDarah);
         System.out.println("Aktif: " + mahasiswaAktif);
+        /*B.2*/
+        int nilaiBulat = 9;
+        double nilaiDouble = nilaiBulat; //wedining otomatis
+        System.out.println("Widening: " + nilaiDouble );
 
+        double pecahan = 9.8;
+        int hasilCating = (int) pecahan;
+        System.out.println("Narrowing: " + hasilCating);
     }
 }
