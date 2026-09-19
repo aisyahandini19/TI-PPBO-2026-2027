@@ -8,5 +8,13 @@ public class LogikaDemo {
         } else {
             System.out.println("TIDAK LULUS mata kuliaj");
         }
+        boolean punyaKTP = false;
+        boolean punyaSIM = true;
+        if (punyaKTP || punyaSIM){
+            System.out.println("Boleh menyewa kendaraan");
+        }
+        if (!punyaKTP){
+            System.out.println("KTP belum tersedia");
+        }
     }
 }
