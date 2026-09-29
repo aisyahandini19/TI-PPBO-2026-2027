@@ -1,7 +1,14 @@
 public class ForDemo {
     public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++){
+        for (int i = 1; i <= 5; i++) {
             System.out.println("Penggulangan ke-" + i);
+            //langkah ke 2
+        }
+        for (int i = 5; i >= 1; i--){
+                System.out.println("Hitung mundur: " + i);
+
+            }
+            System.out.println("Selesai!");
         }
     }
-}
+
