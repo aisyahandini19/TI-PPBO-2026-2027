@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Latihan6BubbleSortAscending {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        //memintak jumlah elemen
         System.out.print("Masukkan jumlah elemen: ");
         int jumlah = input.nextInt();
 
