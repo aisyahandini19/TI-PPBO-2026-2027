@@ -1,11 +1,11 @@
 public class MethodDemo {
     // method void : tidak mengambil nilai apa pun
-    static void sapa(){
-        System.out.println("Hallo, selamat datang!");
+    static void sapa(String nama){
+        System.out.println("Hallo, " + nama + "!");
     }
     public static void main(String[] args){
-        sapa();
-        sapa();
-        sapa();
+        sapa("Budi");
+        sapa("Siti");
+
     }
 }
