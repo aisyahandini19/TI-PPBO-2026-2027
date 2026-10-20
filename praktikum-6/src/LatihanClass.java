@@ -1,11 +1,11 @@
 public class LatihanClass {
     public static void main (String[] args){
         Mahasiswa m1 = new Mahasiswa(); //MEMBUAT OBJECT
-        m1.nama = "Budi";
-        m1.nim = "12345";
-        m1.ipk = 3.75;
+//        m1.nama = "Budi";
+//        m1.nim = "12345";
+//        m1.ipk = 3.75;
 
-        Mahasiswa m2 = new Mahasiswa();
+        Mahasiswa m2 = new Mahasiswa("Siti" , "67890", 3.90);// berparameter
         m2.nama = "Siti";
         m2.nim = "67890";
         m2.ipk = 3.90;

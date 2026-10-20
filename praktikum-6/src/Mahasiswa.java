@@ -2,4 +2,15 @@ public class Mahasiswa {
     String nama;
     String nim;
     double ipk;
+    //constructor default (tanpa perameter)
+    public Mahasiswa(){
+        nama = "Belum diisi";
+        nim = "-";
+        ipk = 0.0;
+    }
+    public  Mahasiswa(String namaAwal, String nimAwal, double ipkAwal){
+        nama = namaAwal;
+        nim = nimAwal;
+        ipk = ipkAwal;
+    }
 }
