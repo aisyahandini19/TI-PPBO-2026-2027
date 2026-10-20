@@ -8,11 +8,11 @@ public class Mahasiswa {
         nim = "-";
         ipk = 0.0;
     }
-    public  Mahasiswa(String namaAwal, String nimAwal, double ipkAwal){
-        nama = namaAwal;
-        nim = nimAwal;
-        ipk = ipkAwal;
-    }
+//    public  Mahasiswa(String namaAwal, String nimAwal, double ipkAwal){
+//        nama = namaAwal;
+//        nim = nimAwal;
+//        ipk = ipkAwal;
+//    }
     public void tampilkanData(){
         System.out.println("Nama: " + nama);
         System.out.println("NIM : " + nim);
