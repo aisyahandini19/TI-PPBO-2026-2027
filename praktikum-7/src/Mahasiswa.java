@@ -26,4 +26,20 @@ public class Mahasiswa {
         return ipk >= 3.5;
 
     }
+    public String getNama(){
+        return nama;
+    }
+    public String getNim(){
+        return nim;
+    }
+    public double getIpk(){
+        return ipk;
+    }
+    public void setIpk(double ipk){
+        if(ipk >= 0.0 && ipk <= 4.0) {
+            this.ipk = ipk;
+        }else{
+            System.out.println("IPK tidak valid, harus 0.0 -4.0");
+        }
+    }
 }
