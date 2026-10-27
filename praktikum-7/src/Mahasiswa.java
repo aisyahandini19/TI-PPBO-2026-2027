@@ -9,12 +9,12 @@ public class Mahasiswa {
         this.nim = nim;
         this.ipk = ipk;
     }
-
-    public Mahasiswa() {
-        nama = "Belum diisi";
-        nim = "-";
-        ipk = 0.0;
-    }
+//
+//    public Mahasiswa() {
+//        nama = "Belum diisi";
+//        nim = "-";
+//        ipk = 0.0;
+//    }
 
     public void tampilkanData() {
         System.out.println("Nama: " + nama);
