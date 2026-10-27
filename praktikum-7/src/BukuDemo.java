@@ -3,9 +3,12 @@ public class BukuDemo {
         Buku buku1 = new Buku(
                 "Laskar Pelangi", "Andrea Hirata", 2005
         );
+        buku1.setJudul("Sang Pemimpi");
+        buku1.setPengarang("Andrea Hirata");
 
         System.out.println("Judul: " + buku1.getJudul());
         System.out.println("Pengarang: " + buku1.getPengarang());
         System.out.println("Tahun Terbit: " + buku1.getTahunTerbit());
     }
+
 }
