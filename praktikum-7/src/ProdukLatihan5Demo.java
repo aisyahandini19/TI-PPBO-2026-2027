@@ -1,4 +1,3 @@
-
 public class ProdukLatihan5Demo {
     public static void main(String[] args) {
         Produk_Latihan5 produk = new Produk_Latihan5(

@@ -1,4 +1,3 @@
-
 public class Produk_Latihan5 {
     private String kodeProduk;
     private String namaProduk;
