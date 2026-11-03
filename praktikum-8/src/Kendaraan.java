@@ -15,11 +15,27 @@ public class Kendaraan {
         }
     }
     class Motor extends Kendaraan {
-    String jenisMotor;
-    public Motor(String merek, int kecepatanMaks, String jenisMotor){
-        super(merek, kecepatanMaks);
-        this.jenisMotor =jenisMotor;
+        String jenisMotor;
+
+        public Motor(String merek, int kecepatanMaks, String jenisMotor) {
+            super(merek, kecepatanMaks);
+            this.jenisMotor = jenisMotor;
+        }
+
+        // hak akses protected
+        public class Kendaraan {
+            protected String merek;
+            protected int KecepatanMaks;
+        }
+
+        class Mobil extends Kendaraan {
+            int jumlahPintu;
+
+            public void tampilkanInfo() {
+                System.out.println("Merek: " + merek);
+                System.out.println("Kecepan Maksimal: " + kecepatanMaks);
+            }
+        }
     }
-}
 
 
