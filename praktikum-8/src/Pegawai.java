@@ -6,7 +6,13 @@ public class Pegawai {
     public Pegawai(String nama, String nip, double gajiPokok) {
         this.nama = nama;
         this.nip = nip;
-        this.gajiPokok = gajiPokok;
+
+        if (gajiPokok < 0) {
+            this.gajiPokok = 0;
+            System.out.println("Peringatan: Gaji tidak boleh negatif!");
+        } else {
+            this.gajiPokok = gajiPokok;
+        }
     }
 
     public void tampilkanData() {
@@ -14,5 +20,4 @@ public class Pegawai {
         System.out.println("NIP: " + nip);
         System.out.println("Gaji Pokok: " + gajiPokok);
     }
-
 }
