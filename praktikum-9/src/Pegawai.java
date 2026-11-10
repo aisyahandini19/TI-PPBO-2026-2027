@@ -2,11 +2,9 @@ public class Pegawai {
     protected String nama;
     protected String nip;
     protected double gajiPokok;
-
     public Pegawai(String nama, String nip, double gajiPokok) {
         this.nama = nama;
         this.nip = nip;
-
         if (gajiPokok < 0) {
             this.gajiPokok = 0;
             System.out.println("Peringatan: Gaji tidak boleh negatif!");
@@ -14,7 +12,6 @@ public class Pegawai {
             this.gajiPokok = gajiPokok;
         }
     }
-
     public void tampilkanData() {
         System.out.println("Nama: " + nama);
         System.out.println("NIP: " + nip);
@@ -23,5 +20,4 @@ public class Pegawai {
     public double hitungGaji() {
         return gajiPokok;
     }
-
 }

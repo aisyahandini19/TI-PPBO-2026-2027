@@ -14,7 +14,8 @@ public class KebunBinatangDemo {
         Hewan[] daftarHewan = {
                 new Kucing("Milo"),
                 new Anjing("Rex"),
-                new Kucing("Oyen")
+                new Kucing("Oyen"),
+                new Bebek("Cimoy")
         };
         // Perulangan polimorfik tanpa if-else pengecekan jenis objek
         for (Hewan h : daftarHewan) {
