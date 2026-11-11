@@ -1,7 +1,8 @@
 public class Lingkaran extends BangunDatar {
     private double radius;
 
-    public Lingkaran(double radius) {
+    public Lingkaran(String namaBangun, double radius) {
+        super(namaBangun); // Memanggil constructor superclass (Poin b)
         this.radius = radius;
     }
 
@@ -9,5 +10,9 @@ public class Lingkaran extends BangunDatar {
     @Override
     public double hitungLuas() {
         return Math.PI * radius * radius;
+    }
+    @Override
+    public double hitungKeliling() {
+        return 2 * Math.PI * radius;
     }
 }
